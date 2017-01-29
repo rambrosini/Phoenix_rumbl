@@ -1,0 +1,2 @@
+<h1>Showing User</h1>
+<div class="jumbotron"><%= render "user.html" , user: @user  %></div>
