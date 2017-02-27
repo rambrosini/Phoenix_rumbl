@@ -1,2 +1,3 @@
 <h1>Showing User</h1>
 <div class="jumbotron"><%= render "user.html" , user: @user  %></div>
+<h4><%= link "User list", to: "/users" %></h4>
