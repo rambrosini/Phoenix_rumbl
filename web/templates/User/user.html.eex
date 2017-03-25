@@ -1,1 +1,2 @@
-<b><%=	first_name(@user) %></b> (<%= @user.id %>)
+<b><%=	first_name(@user) %></b> (<%= @user.id %>) <br>
+<b>username: <%=	 @user.username %></b> <br>
