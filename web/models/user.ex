@@ -11,6 +11,7 @@ defmodule Rumbl.User do
 	end
 
 	def changeset(model, params \\ %{}) do
+		#IO.puts inspect params
 		model
 		|> cast(params, [:name, :username])
 		|> validate_required( [:name, :username])
