@@ -2,7 +2,7 @@ defmodule Rumbl.VideoControllerTest do
   use Rumbl.ConnCase
 
   alias Rumbl.Video
-  @valid_attrs %{description: "some content", string: "some content", title: "some content", url: "some content"}
+  @valid_attrs %{description: "some content", title: "some content", url: "some content"}
   @invalid_attrs %{}
 
   test "lists all entries on index", %{conn: conn} do
