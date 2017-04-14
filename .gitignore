@@ -23,5 +23,3 @@ erl_crash.dump
 # variables.
 /config/prod.secret.exs
 /config/dev.exs
-
-config/dev.exs
