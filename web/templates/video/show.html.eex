@@ -22,7 +22,12 @@
     <%= @video.description %>
   </li>
 
+  <li>
+    <strong>Categoria:</strong>
+    <%= @video.category.name %>
+  </li>
+
 </ul>
 
-<%= link "Edit", to: video_path(@conn, :edit, @video) %> | 
+<%= link "Edit", to: video_path(@conn, :edit, @video) %> |
 <%= link "Back", to: video_path(@conn, :index) %>
